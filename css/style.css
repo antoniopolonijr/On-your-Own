@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.950);
+    color: white;
+}
+h1, h2 {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.950);
+    text-indent: 20px
+}
+p {
+    text-indent: 20px;
+}
+blockquote p {
+    text-indent: 0px;
+}    
+a:link {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(0, 0, 255, 0.75)
+}
+a:hover {
+    color: blue;
+}
+a.youtube:link, a.youtube:visited {
+    color: rgba(255, 0, 0, 0.75);
+}
+a.youtube:hover {
+    color: rgb(255, 0, 0);
+}
+a.twitch:link, a.twitch:visited {
+    color: rgba(128, 0, 128, 0.75);
+}
+a.twitch:hover {
+    color: rgb(128, 0, 128);
+}
+a.palmeiras:link, a.palmeiras:visited {
+    color: green;
+}
+a.palmeiras:hover {
+    color: rgb(0, 175, 0);
+}
